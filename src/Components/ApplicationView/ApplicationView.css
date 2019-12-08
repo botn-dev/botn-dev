@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --background-color: black;
+    --main-text-color: white;
+    --body-background-color: grey;
+    --background-main: rgba(0, 0, 0);
+    --betteroptions-blue: rgb(128,150,197);
+    --betteroptions-gold: rgb(252,217,32);
+    --navlinks-color: white;
+    --navlinks-active: rgb(252,217,32);
+    --photo-caption: rgba(0, 0, 0, .8);
+    --photo-caption-text: white;
+    --body-background: white;
+    --home-background: rgba(0, 0, 0, .8);
+    --navbar-background: rgba(0, 0, 0, .8);
+    --navbar-blue: rgb(44,80,158);
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 601px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+}
+
+.App {
+    background-color: var(--background-color);
+    position: relative;
+    display: inline-block;
+}
+
+.main-body {
+    position: relative;
+    /* height: calc(100vh - 96px); */
+    background-color: var(--body-background);
+    text-align: center;
+}
+
+.body-split {
+    width: 84vw;
+    margin-left: 14vw;
+}
+
+.body-full {
+    width: 100vw;
+}
+
+.body-div {
+    width: 100vw;
+    text-align: center;
+}
+
+#page-title {
+    color: var(--main-text-color);
+}
+

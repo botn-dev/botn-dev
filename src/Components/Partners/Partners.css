@@ -1,0 +1,324 @@
+@media only screen and (max-width: 600px) {
+    .services-partners-div {
+        width: 96vw;
+        margin-left: 2vw;
+        border-radius: 10px;
+        justify-content: space-evenly;
+        min-height: calc(100vh - 220px);
+    }
+
+    .indiv-partner-left {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5%;
+        margin: 5vh 2.5% 5vh 2.5%;
+    }
+
+    .indiv-partner-right {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5%;
+        margin: 5vh 2.5% 5vh 2.5%;
+    }
+
+    .partner-name {
+        font-size: 20px;
+    }
+
+    .partner-address-div {
+        flex-direction: column;
+    }
+
+    .partner-row-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .partner-row-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .title-logo {
+        order: 2;
+        width: 98%;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    .partner-logo-left {
+        order: 1;
+        margin: auto;
+        max-height: 17vh;
+        max-width: 90%;
+    }
+
+    .partner-logo-right {
+        order: 1;
+        margin: auto;
+        max-height: 17vh;
+        max-width: 90%;
+    }
+
+    .partner-address {
+        font-size: 16px;
+    }
+
+    .partner-email {
+        width: 30%;
+        padding: 10px;
+        max-width: 50px;
+    }
+
+    .partner-address-indiv {
+        order: 1;
+    }
+
+    .partEmail {
+        order: 2;
+    }
+
+    .partner-description {
+        padding: 10px;
+    }
+
+    .partner-paragraph {
+        display: none !important;
+    }
+
+    .partner-paragraph-small {
+        padding: 4px 0px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .services-partners-div {
+        width: 99vw;
+        margin-left: .5vw;
+        justify-content: space-evenly;
+        min-height: calc(100vh - 220px);
+        margin-bottom: 54px;
+        background-color: var(--home-background);
+        color: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    .indiv-partner-left {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 27% 15px 1%;
+        padding: 3px 1% 3px 1%;
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .indiv-partner-right {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 1% 15px 27%;
+        padding: 3px 1% 3px 1%;
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .partner-name {
+        font-size: 30px;
+    }
+
+    .partner-address-div {
+        flex-direction: row;
+    }
+
+    .partner-row-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .partner-row-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .title-logo {
+        width: 70%;
+    }
+
+    .partner-logo-left {
+        margin: 5px;
+        max-height: 17vh;
+        max-width: 30%;
+    }
+
+    .partner-logo-right {
+        margin: 5px;
+        max-height: 17vh;
+        max-width: 30%;
+    }
+
+    .partner-address {
+        font-size: 14px;
+    }
+
+    .partner-email {
+        width: 30px;
+        padding-top: 10px;
+    }
+
+    .partner-description {
+        padding: 10px;
+    }
+
+    .partner-paragraph {
+        padding: 4px 0px;
+    }
+
+    .partner-paragraph-small {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .services-partners-div {
+        width: 99vw;
+        margin-left: .5vw;
+        justify-content: space-evenly;
+        min-height: calc(100vh - 220px);
+        margin-bottom: 54px;
+        background-color: var(--home-background);
+        color: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    .indiv-partner-left {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 27% 15px 1%;
+        padding: 3px 1% 3px 1%;
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .indiv-partner-right {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 1% 15px 27%;
+        padding: 3px 1% 3px 1%;
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .partner-name {
+        font-size: 30px;
+    }
+
+    .partner-address-div {
+        flex-direction: row;
+    }
+
+    .partner-row-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .partner-row-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .title-logo {
+        width: 70%;
+    }
+
+    .partner-logo-left {
+        margin: 5px;
+        max-height: 17vh;
+        max-width: 30%;
+    }
+
+    .partner-logo-right {
+        margin: 5px;
+        max-height: 17vh;
+        max-width: 30%;
+    }
+
+    .partner-address {
+        font-size: 14px;
+    }
+
+    .partner-email {
+        width: 30px;
+        padding-top: 10px;
+    }
+
+    .partner-description {
+        padding: 10px;
+    }
+
+    .partner-paragraph {
+        padding: 4px 0px;
+    }
+
+    .partner-paragraph-small {
+        display: none !important;
+    }
+}
+
+.services-partners-div {
+    background-color: var(--home-background);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.indiv-partner-left {
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+.indiv-partner-right {
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+.partner-name {
+    width: 100%;
+    text-align: center;
+}
+
+.partner-address-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.title-logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

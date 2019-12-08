@@ -1,0 +1,337 @@
+@keyframes appear {
+    0% { opacity: 0 ;}
+    50% { opacity: .5 ;}
+    100% { opacity: 1 ;}
+}
+
+@-webkit-keyframes appear {
+    0% { opacity: 0 ;}
+    50% { opacity: .5 ;}
+    100% { opacity: 1 ;}
+}
+
+@keyframes disappear {
+    0% { opacity: 0 ;}
+    50% { opacity: 1 ;}
+    100% { opacity: 0 ;}
+}
+
+@-webkit-keyframes disappear {
+    0% { opacity: 0 ;}
+    50% { opacity: 1 ;}
+    100% { opacity: 0 ;}
+}
+
+@media only screen and (max-width: 600px) {
+    .main-home-div {
+        padding-top: 3vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .left-home-div {
+        width: 96vw;
+        margin-left: 2vw;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .home-text {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .home-text-smaller {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .home-bullet {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+
+    .home-bullet-text {
+        font-size: 20px;
+        align-self: center;
+        margin-left: 2%;
+        width: calc(100% - 35px);
+    }
+
+    .photo-div {
+        width: 96vw;
+        margin-left: 2vw;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .photo-caption {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 17px;
+    }
+
+    #visionDiv {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    #homeTitle {
+        font-size: 25px;
+        margin: 10px 0px 10px 0px;
+        padding-top: 5px;
+    }
+
+    #visionStatement {
+        font-size: 20px;
+        padding-bottom: 10px;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .main-home-div {
+        padding-top: 3vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .left-home-div {
+        width: 46vw;
+    }
+
+    .home-text {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .home-text-smaller {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .home-bullet {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+
+    .home-bullet-text {
+        font-size: 20px;
+        align-self: center;
+        margin-left: 2%;
+    }
+
+    .photo-div {
+        width: 46vw;
+        background-color: var(--home-background);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .photo-caption {
+        width: 98%;
+        font-size: 18px;
+    }
+
+    #visionDiv {
+        width: 95vw;
+        margin-left: 2.5vw;
+        background-color: var(--home-background);
+        color: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    #homeTitle {
+        margin: 10px 0px 10px 0px;
+        padding-top: 5px;
+    }
+
+    #visionStatement {
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .main-home-div {
+        padding-top: 3vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .left-home-div {
+        width: 46vw;
+    }
+
+    .home-text {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .home-text-smaller {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .home-bullet {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+
+    .home-bullet-text {
+        font-size: 20px;
+        align-self: center;
+        margin-left: 2%;
+    }
+
+    .photo-div {
+        width: 46vw;
+        background-color: var(--home-background);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .photo-caption {
+        width: 98%;
+        font-size: 18px;
+    }
+
+    #visionDiv {
+        width: 95vw;
+        margin-left: 2.5vw;
+        background-color: var(--home-background);
+        color: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    #homeTitle {
+        margin: 10px 0px 10px 0px;
+        padding-top: 5px;
+    }
+
+    #visionStatement {
+        padding-bottom: 5px;
+    }
+}
+
+.entire-home-div {
+    padding-bottom: 55px;
+    overflow-y: scroll;
+    top: 127px;
+    width: 100vw;
+    background:
+        linear-gradient(
+        rgba(234, 234, 234, 0.45),
+        rgba(234, 234, 234, 0.45)
+        );
+    z-index: 2;
+}
+
+#background-image {
+    position: fixed;
+    opacity: .4;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.main-home-div {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    z-index: 5;
+}
+
+.left-home-div {
+    background-color: var(--home-background);
+}
+
+.home-text {
+    color: white;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.home-text-smaller {
+    color: white;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.home-bullet {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.bullet-image {
+    height: 35px;
+    border-radius: 10px;
+}
+
+.home-bullet-text {
+    color: white;
+}
+
+.photo-div {
+    background-color: var(--home-background);
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+}
+
+.photo-home {
+    width: calc(100% - 20px);
+    padding: 10px 10px 0px 10px;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.photo-caption {
+    color: var(--photo-caption-text);
+    position: relative;
+    z-index: 1;
+}
+
+.appear {
+    animation: appear 2.5s infinite ease-in;
+}
+
+.disappear {
+    animation: disappear 5s infinite ease-out;
+}
+
+#visionDiv {
+    width: 95vw;
+    margin-left: 2.5vw;
+    background-color: var(--home-background);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
